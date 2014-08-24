@@ -33,6 +33,9 @@ class TestFeaturesProportion(unittest.TestCase):
     value = proportion.obstruent_proportion(word)
     self.assertEqual(value, 0)
 
+  #TODO: tests for generic proportion
+  #TODO: mock constants out for unit tests
+
 if __name__ == '__main__':
 	unittest.main()
 
