@@ -20,7 +20,9 @@ def proportion(regex, word, converse):
   count = 0
   for letter in regex:
   	count += word.count(letter)
-  average = float(count) / len(word)
+  length = len(word)
+  if length is 0: return 0
+  average = float(count) / length
   if converse: average = get_converse(average)
   return average
 
