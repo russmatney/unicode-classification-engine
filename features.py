@@ -3,18 +3,18 @@ OBSTRUENT_REGEX = u'bcdfgjkpqstvxz'
 
 def consonant_proportion(word):
   converse = False
-  return x_proportion(CONSONANTS_REGEX, word, converse)
+  return proportion(CONSONANTS_REGEX, word, converse)
 
 #For now, this assumes vowels are the converse of the consonants regex
 def vowel_proportion(word):
   converse = True
-  return x_proportion(CONSONANTS_REGEX, word, converse)
+  return proportion(CONSONANTS_REGEX, word, converse)
 
 def obstruent_proportion(word):
   converse = False
-  return x_proportion(OBSTRUENT_REGEX, word, converse)
+  return proportion(OBSTRUENT_REGEX, word, converse)
 
-def x_proportion(regex, word, converse):
+def proportion(regex, word, converse):
   count = 0
   for letter in regex:
   	count += word.count(letter)
