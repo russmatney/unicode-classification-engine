@@ -25,7 +25,7 @@ print "consonant coda for %s: %i" % (word, consonant_coda)
 
 ##Unit tests:
 
-To run the unit tests, just run `python features_test.py`.
+To run the unit tests, just run `python -m unittest discover test '*_test.py'`.
 
 ##TODO:
 
