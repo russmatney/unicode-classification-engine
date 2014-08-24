@@ -15,10 +15,10 @@ or create your own.
 ##Usage:
 
 ```python
-import features
+from features import coda
 
 word = u'lysoon'
-consonant_coda = features.consonant_coda(word)
+consonant_coda = coda.consonant_coda(word)
 
 print "consonant coda for %s: %i" % (word, consonant_coda)
 ```
@@ -33,3 +33,4 @@ To run the unit tests, just run `python features_test.py`.
 - Clean up
 - Tokenizing
 - Lexical Distribution
+- Unit Tests
