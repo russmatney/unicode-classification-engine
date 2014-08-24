@@ -6,19 +6,20 @@ based on typical Linguistic techniques.
 This engine lets you run a few standard analyses of any (Unicode) corpus,
 or create your own.
 
-##Built in techniques:
+##Features
 
-- vowels per word
-- consonants per word
-- etc
+- Consonant, Obstruent, Vowel proportion per word
+- Consonant, Obstruent Coda
+- Consonant, Obstruent, Vowel clusters
 
 ##Usage:
 
-```
-```
+```python
+import features
 
-#Natural Language Tool Kit
+word = u'lysoon'
+consonant_coda = features.consonant_coda(word)
 
-This engine relies heavily on the [NLTK](), and is essentially an
-convenience abstraction built on top of it.
+print "consonant coda for %s: %i" % (word, consonant_coda)
+```
 
