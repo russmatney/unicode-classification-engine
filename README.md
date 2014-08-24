@@ -23,3 +23,9 @@ consonant_coda = features.consonant_coda(word)
 print "consonant coda for %s: %i" % (word, consonant_coda)
 ```
 
+##TODO:
+
+- Importing Raw Text
+- Clean up
+- Tokenizing
+- Lexical Distribution
