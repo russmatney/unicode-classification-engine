@@ -23,6 +23,10 @@ consonant_coda = features.consonant_coda(word)
 print "consonant coda for %s: %i" % (word, consonant_coda)
 ```
 
+##Unit tests:
+
+To run the unit tests, just run `python features_test.py`.
+
 ##TODO:
 
 - Importing Raw Text
