@@ -1,7 +1,5 @@
 import re
-
-CONSONANTS_REGEX = u'bcdfgjklmnpqrstvxz\u00f1'
-OBSTRUENT_REGEX = u'bcdfgjkpqstvxz'
+from constants import *
 
 def consonant_clusters(word):
   regex = ur'[' + CONSONANTS_REGEX + '][' + CONSONANTS_REGEX + ']+'

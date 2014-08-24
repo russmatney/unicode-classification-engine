@@ -1,5 +1,4 @@
-CONSONANTS_REGEX = u'bcdfgjklmnpqrstvxz\u00f1'
-OBSTRUENT_REGEX = u'bcdfgjkpqstvxz'
+from constants import *
 
 def consonant_coda(word):
   return coda(CONSONANTS_REGEX, word)
