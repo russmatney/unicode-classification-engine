@@ -17,7 +17,11 @@ obstruent_coda = features.obstruent_coda(word)
 print "obstruent coda for %s: %i" % (word, obstruent_coda)
 
 word = u'avvirsosh'
-consonant_clusters = features.consonant_cluster(word)
-print "consonant clusers for %s: %i" % (word, consonant_clusters)
-obstruent_clusters = features.obstruent_cluster(word)
-print "consonant clusers for %s: %i" % (word, obstruent_clusters)
+consonant_clusters = features.consonant_clusters(word)
+print "consonant clusters for %s: %i" % (word, consonant_clusters)
+obstruent_clusters = features.obstruent_clusters(word)
+print "consonant clusters for %s: %i" % (word, obstruent_clusters)
+
+word = u'haeshi'
+vowel_clusters = features.vowel_clusters(word)
+print "vowel clusters for %s: %i" % (word, vowel_clusters)
