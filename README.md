@@ -1,4 +1,4 @@
-#Text Classification Engine
+#unicode-classification-engine
 
 An abstraction of some techniques for distinguishing two texts,
 based on typical Linguistic techniques.
