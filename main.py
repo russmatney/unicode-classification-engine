@@ -1,10 +1,14 @@
-import features as feature
+import features
 
-word = u'z\u016bgusyaaa'
+word = u'z\u016bgusyaa'
 
+consonant_proportion = features.consonant_proportion(word)
+print "consonant proportion for %s: %.2f" % (word, consonant_proportion)
 
-print "consonants per word: %.1f" % feature.consonants_per_word(word)
+vowel_proportion = features.vowel_proportion(word)
+print "vowels proportion for %s: %.2f" % (word, vowel_proportion)
 
-print "vowels per word: %.1f" % feature.vowels_per_word(word)
-
+word = u'\u012blvi'
+obstruent_proportion = features.obstruent_proportion(word)
+print "obstruent proportion for %s: %.2f" % (word, obstruent_proportion)
 
