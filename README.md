@@ -6,6 +6,12 @@ based on typical Linguistic techniques.
 This engine lets you run a few standard analyses of any (Unicode) corpus,
 or create your own.
 
+For a quick demo, run:
+
+```python
+python main.py
+```
+
 ##Features
 
 - Consonant, Obstruent, Vowel proportion per word
